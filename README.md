@@ -12,11 +12,9 @@
 
 `~/.aws/credentials`
 ```
-...
 [serverless]
 aws_access_key_id=***************
 aws_secret_access_key=***************
-...
 ```
 
 [reference](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
@@ -24,7 +22,7 @@ aws_secret_access_key=***************
 
 ## Development
 
-*`所有指令都要在各 service 資料夾下才能操作`*
+*`所有指令都要在各 service 資料夾下才能操作`*
 
 依照功能區分每個資料夾，service 獨立運作，擁有屬於自己的 node_modules 與 deploy 機制。
 
