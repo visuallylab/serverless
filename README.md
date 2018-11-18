@@ -8,7 +8,7 @@
 
 ## Setup
 
-必須加入 **Serverless-admin** Role 至你的 AWS Credentials （accessID, secretKey 請找啟軒拿）
+必須加入 **Serverless-admin** Role 至你的 AWS Credentials
 
 `~/.aws/credentials`
 ```
@@ -33,12 +33,12 @@ aws_secret_access_key=***************
 
 ### deploy service
 ```sh
-serverless deploy -v --aws-profile serverless
+sls deploy -v --aws-profile serverless
 ```
 
 ### deploy function
 ```sh
-serverless deploy function --function FUNCTION_NAME --aws-profile serverless
+sls deploy function --function FUNCTION_NAME --aws-profile serverless
 ```
 
 ### More Info
