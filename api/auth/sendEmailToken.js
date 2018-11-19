@@ -1,7 +1,6 @@
 'use strict'
 
 const OTP = require('otplib');
-const AWS = require('aws-sdk');
 // using nodemailer@2.7.0 for demo, since it supports send mail without a relaying service.
 const nodemailer = require('nodemailer');
 
