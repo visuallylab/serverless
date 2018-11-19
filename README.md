@@ -8,11 +8,10 @@
 
 ## Setup
 
-必須加入 **Serverless-admin** Role 至你的 AWS Credentials
+必須先設定你的 **AWS credentials**
 
 `~/.aws/credentials`
 ```
-[serverless]
 aws_access_key_id=***************
 aws_secret_access_key=***************
 ```
