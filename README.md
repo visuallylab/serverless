@@ -32,12 +32,12 @@ aws_secret_access_key=***************
 
 ### deploy service
 ```sh
-sls deploy -v --aws-profile serverless
+sls deploy -v
 ```
 
 ### deploy function
 ```sh
-sls deploy function --function FUNCTION_NAME --aws-profile serverless
+sls deploy function --function FUNCTION_NAME
 ```
 
 ### More Info
