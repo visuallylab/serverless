@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "aws-sdk": "^2.358.0",
+    "nodemailer": "^2.7.0",
     "otplib": "^10.0.1"
   }
 }

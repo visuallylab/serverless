@@ -29,6 +29,13 @@ functions:
           path: ${self:service}/v1/auth/sendSMSToken
           method: post
           private: true
+  auth-sendEmailToken:
+    handler: auth/sendEmailToken.sendEmailToken
+    events:
+      - http:
+          path: ${self:service}/v1/auth/sendEmailToken
+          method: post
+          private: true
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
